@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MDR — Data Analyst</title>
+  <meta name="description" content="Portfolio of Majji Durga Reddy, Data Analyst & Power BI Developer.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  
+  <div class="grid-overlay" aria-hidden="true"></div>
+  <header class="topbar">
+    <div class="topbar__inner">
+      <a href="#top" class="brand">My Portfolio</a>
+      <nav class="navlinks">
+        <a href="#work">Work</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact" class="navlinks__cta">Contact</a>
+      </nav>
+      <button class="navtoggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <section class="hero">
+      <div class="hero__inner">
+        <div class="hero__text">
+          <p class="eyebrow"><span class="eyebrow__pulse"></span>Available for Data Analyst roles</p>
+          <p class="hero__name">MAJJI DURGA REDDY</p>
+          <h1 class="hero__title">
+            Turning raw rows<br>into <span class="hero__title--accent">reportable</span><br>decisions.
+          </h1>
+          <p class="hero__sub">
+            Detail-oriented Data Analyst skilled in Python, SQL, and Power BI, with a strong focus on
+            transforming large, unstructured datasets into clean, reliable, decision-ready insights.
+            Experienced in end-to-end data workflows — from data cleaning and validation to building
+            interactive dashboards with custom DAX measures. Adept at translating complex business
+            questions into clear, actionable KPIs that drive informed decisions. Combines analytical
+            rigor with practical business understanding to deliver insights that truly support teams.
+          </p>
+          <div class="hero__actions">
+            <a href="#work" class="btn btn--primary">View dashboards</a>
+            <a href="mailto:majjidurgareddy166@gmail.com" class="btn btn--ghost">Get in touch</a>
+          </div>
+          <div class="hero__links">
+            <a href="https://github.com/MDR-1729" target="_blank" rel="noopener">GitHub ↗</a>
+            <a href="https://www.linkedin.com/in/majji-durga-reddy-89ba08265/" target="_blank" rel="noopener">LinkedIn ↗</a>
+          </div>
+        </div>
+
+        <div class="hero__visual">
+          <div class="profile-card">
+            <div class="profile-card__frame">
+              <img src="assets/profile-photo.png" alt="Majji Durga Reddy portrait" />
+            </div>
+            <div class="profile-card__badge">
+              <span class="badge__label">Data Analyst</span>
+              <span class="badge__meta">Power BI • SQL • Python</span>
+            </div>
+          </div>
+
+          <div class="hero__panel">
+            <div class="panel">
+              <div class="panel__head">
+                <span class="panel__title">live_metrics.pbix</span>
+                <span class="panel__status"><i></i>refreshed just now</span>
+              </div>
+              <div class="panel__kpis">
+                <div class="kpi">
+                  <span class="kpi__label">Records Processed</span>
+                  <span class="kpi__value" data-count="20000" data-suffix="+">0</span>
+                </div>
+                <div class="kpi">
+                  <span class="kpi__label">Data Inconsistency Cut</span>
+                  <span class="kpi__value" data-count="40" data-suffix="%">0</span>
+                </div>
+                <div class="kpi">
+                  <span class="kpi__label">Manual Reporting Time Saved</span>
+                  <span class="kpi__value" data-count="30" data-suffix="%">0</span>
+                </div>
+                <div class="kpi">
+                  <span class="kpi__label">Dashboards Deployed</span>
+                  <span class="kpi__value" data-count="3">0</span>
+                </div>
+              </div>
+              <div class="panel__chart">
+                <svg viewBox="0 0 360 120" class="chartline" preserveAspectRatio="none">
+                  <polyline class="chartline__grid" points="0,30 360,30" />
+                  <polyline class="chartline__grid" points="0,60 360,60" />
+                  <polyline class="chartline__grid" points="0,90 360,90" />
+                  <polyline class="chartline__path" points="0,90 36,78 72,82 108,55 144,60 180,40 216,46 252,28 288,33 324,18 360,22" />
+                  <polyline class="chartline__fill" points="0,90 36,78 72,82 108,55 144,60 180,40 216,46 252,28 288,33 324,18 360,22 360,120 0,120" />
+                </svg>
+                <div class="chartline__caption">Quarterly insight throughput — sales &amp; ops reporting</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="section">
+      <div class="section__head">
+        <p class="section__eyebrow">Dashboards &amp; Projects</p>
+        <h2 class="section__title">Selected work</h2>
+      </div>
+
+      <div class="projects">
+        <article class="project">
+          <div class="project__meta">
+            <span class="tag">Excel</span>
+            <span class="tag">Power BI</span>
+          </div>
+          <h3 class="project__title">E-Commerce Sales Analysis Dashboard</h3>
+          <p class="project__desc">
+            Transformed 20,000+ sales records into a single Power BI dashboard tracking four core KPIs —
+            Revenue, Order Volume, AOV, and Retention Rate — giving stakeholders end-to-end sales visibility.
+            Surfaced product category trends, regional performance, and seasonal demand patterns that fed
+            directly into inventory and marketing decisions.
+          </p>
+          <div class="project__kpis">
+            <div><span>4</span>KPI tiles</div>
+            <div><span>20K+</span>records modeled</div>
+          </div>
+          <a href="https://github.com/MDR-1729/E-Commerce-Dashboard" target="_blank" rel="noopener" class="project__link">View repository ↗</a>
+        </article>
+
+        <article class="project">
+          <div class="project__meta">
+            <span class="tag">SQL</span>
+            <span class="tag">Excel</span>
+            <span class="tag">Power BI</span>
+          </div>
+          <h3 class="project__title">Sales Performance Analytics Dashboard</h3>
+          <p class="project__desc">
+            Validated 10,000+ sales records with SQL before engineering a Power BI dashboard built on
+            five-plus KPIs and custom DAX measures, enabling real-time revenue trend analysis for the
+            business teams that relied on it.
+          </p>
+          <div class="project__kpis">
+            <div><span>5+</span>custom DAX KPIs</div>
+            <div><span>10K+</span>records validated</div>
+          </div>
+          <a href="https://github.com/MDR-1729/POWER_BI_DASHBOARD" target="_blank" rel="noopener" class="project__link">View repository ↗</a>
+        </article>
+
+        <article class="project project--simulation">
+          <div class="project__meta">
+            <span class="tag">GenAI</span>
+            <span class="tag">Strategy</span>
+          </div>
+          <h3 class="project__title">Tata Group Data Analytics Job Simulation</h3>
+          <p class="project__desc">
+            Forage simulation for the Financial Services team at Tata iQ. Ran GenAI-assisted EDA to assess
+            data quality and risk indicators, proposed a no-code predictive framework for customer delinquency
+            risk, and designed an agentic AI collections strategy with ethical and regulatory guardrails.
+          </p>
+          <div class="project__kpis">
+            <div><span>2026</span>completed</div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="section section--alt">
+      <div class="section__head">
+        <p class="section__eyebrow">Internship</p>
+        <h2 class="section__title">Experience</h2>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline__row">
+          <div class="timeline__date">
+            <span>Nov 2025</span>
+            <span>—</span>
+            <span>Dec 2025</span>
+          </div>
+          <div class="timeline__content">
+            <h3>Data Analytics Intern</h3>
+            <p class="timeline__org">Besant Technologies Private Limited</p>
+            <ul>
+              <li>Cleaned and standardized 5,000+ records using SQL and Excel, cutting data inconsistencies by 40% and improving downstream reporting quality.</li>
+              <li>Deployed 3 Power BI dashboards for real-time KPI monitoring, reducing manual reporting time by 30% across two-plus business departments.</li>
+              <li>Generated structured analytical reports that directly supported strategic decisions for sales and operations teams.</li>
+              <li>Worked with cross-functional stakeholders to translate business requirements into actionable data insights.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="education">
+        <div class="education__card">
+          <h3>B.Tech, Electronics &amp; Communication Engineering</h3>
+          <p class="education__org">NRI Institute of Technology, Vijayawada · Graduated April 2025</p>
+          <p class="education__score">CGPA 9.05 / 10</p>
+        </div>
+        <div class="education__card">
+          <h3>Intermediate (MPC)</h3>
+          <p class="education__org">Kakaraparti Bhavanarayana Junior College, Vijayawada · Graduated July 2021</p>
+          <p class="education__score">967 / 1000</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section__head">
+        <p class="section__eyebrow">Toolkit</p>
+        <h2 class="section__title">Skills</h2>
+      </div>
+
+      <div class="skillgrid">
+        <div class="skillgroup">
+          <h3>Programming</h3>
+          <p>Python, SQL</p>
+        </div>
+        <div class="skillgroup">
+          <h3>Data Analysis</h3>
+          <p>Pandas, NumPy, Data Cleaning, EDA, Statistical Analysis</p>
+        </div>
+        <div class="skillgroup">
+          <h3>Visualization</h3>
+          <p>Power BI (DAX, KPI Dashboards), Matplotlib, Excel (Pivot Tables, Charts)</p>
+        </div>
+        <div class="skillgroup">
+          <h3>Tools &amp; Platforms</h3>
+          <p>MySQL, Git, GitHub, VS Code</p>
+        </div>
+        <div class="skillgroup">
+          <h3>Concepts</h3>
+          <p>Data Modelling, KPI Analysis, Dashboard Development, BI &amp; Reporting</p>
+        </div>
+        <div class="skillgroup">
+          <h3>Soft Skills</h3>
+          <p>Critical Thinking, Written &amp; Verbal Communication</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="certifications" class="section section--alt">
+      <div class="section__head">
+        <p class="section__eyebrow">Credentials</p>
+        <h2 class="section__title">Certifications</h2>
+      </div>
+
+      <div class="certlist">
+        <div class="certrow">
+          <span class="certrow__name">SQL (Intermediate)</span>
+          <span class="certrow__org">HackerRank</span>
+          <span class="certrow__date">June 2026</span>
+        </div>
+        <div class="certrow">
+          <span class="certrow__name">Data Analytics — SQL, Excel, Power BI</span>
+          <span class="certrow__org">Besant Technologies Private Limited</span>
+          <span class="certrow__date">Nov–Dec 2025</span>
+        </div>
+        <div class="certrow">
+          <span class="certrow__name">Python for Data Science</span>
+          <span class="certrow__org">Reliance Foundation Skilling Academy</span>
+          <span class="certrow__date">May 2025</span>
+        </div>
+        <div class="certrow">
+          <span class="certrow__name">Python (Basic)</span>
+          <span class="certrow__org">HackerRank</span>
+          <span class="certrow__date">May 2024</span>
+        </div>
+        <div class="certrow">
+          <span class="certrow__name">Front-End Web Development</span>
+          <span class="certrow__org">NXTSYNC Private Limited</span>
+          <span class="certrow__date">Jun–Sep 2024</span>
+        </div>
+        <div class="certrow">
+          <span class="certrow__name">Junior Software Developer — PMKVY 4.0</span>
+          <span class="certrow__org">PMKVY</span>
+          <span class="certrow__date">Feb–May 2024</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section--contact">
+      <div class="section__head contact__head">
+        <p class="section__eyebrow">Let's talk data</p>
+        <h2 class="section__title">Get in touch</h2>
+        <p class="contact__sub">Open to entry-level Data Analyst and Power BI Developer roles — reach out directly or send a message below.</p>
+      </div>
+
+      <div class="contact__grid">
+        <div class="contact__info">
+          <div class="infoitem">
+            <span class="infoitem__label">Email</span>
+            <a href="mailto:majjidurgareddy166@gmail.com" class="infoitem__value">majjidurgareddy166@gmail.com</a>
+          </div>
+          <div class="infoitem">
+            <span class="infoitem__label">Phone</span>
+            <a href="tel:+916302166572" class="infoitem__value">+91 6302166572</a>
+          </div>
+          <div class="infoitem">
+            <span class="infoitem__label">Location</span>
+            <span class="infoitem__value">Vijayawada, Andhra Pradesh, India</span>
+          </div>
+          <div class="infoitem">
+            <span class="infoitem__label">Elsewhere</span>
+            <div class="infoitem__socials">
+              <a href="https://github.com/MDR-1729" target="_blank" rel="noopener">GitHub ↗</a>
+              <a href="https://www.linkedin.com/in/majji-durga-reddy-89ba08265/" target="_blank" rel="noopener">LinkedIn ↗</a>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact__form" id="contactForm" autocomplete="off">
+          <div class="formrow">
+            <label for="cf-name">Name</label>
+            <input type="text" id="cf-name" name="name" placeholder="Your full name" required>
+          </div>
+          <div class="formrow">
+            <label for="cf-email">Email</label>
+            <input type="email" id="cf-email" name="email" placeholder="you@company.com" required>
+          </div>
+          <div class="formrow">
+            <label for="cf-subject">Subject</label>
+            <input type="text" id="cf-subject" name="subject" placeholder="Role, project, or opportunity">
+          </div>
+          <div class="formrow">
+            <label for="cf-message">Message</label>
+            <textarea id="cf-message" name="message" rows="5" placeholder="Tell me a bit about what you're looking for..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary form__submit">Send message</button>
+          <p class="form__note" id="formNote">This opens your email client with the message pre-filled — nothing is sent from this page.</p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Majji Durga Reddy. Built with care, indexed like a dataset.</p>
+  </footer>
+  <script src="script.js"></script>
+
+</body>
+</html>
